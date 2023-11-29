@@ -1,4 +1,5 @@
 # Crypto Recommendation Service Demo
+The price ar in the src/main/resources/prices
 Returns descending sorted list of all the cryptos,comparing the normalized range\
  http://localhost:8080/sort_norm_crypto \
 Returns crypto data for a desired crypto\

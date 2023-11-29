@@ -1,12 +1,12 @@
 package com.wolfTech.recommendationService;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class HelloController {
 	@GetMapping("/test")
 	public String index() {
-		return "Greetings from Spring Boot!again";
+		return "/all_crypto_list";
 	}
 }
